@@ -1,16 +1,42 @@
-<div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-  <label class="btn btn-primary">
-    <input type="radio" [value]="1"> Left (pre-checked)
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" value="middle"> Middle
-  </label>
-  <label class="btn btn-primary">
-    <input type="radio" [value]="false"> Right
-  </label>
+
+
+
+
+<nav class="navbar navbar-toggleable-md navbar-light sticky-top" style="background-color: #e3f2fd;">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">     
+    </span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i> Expense Tracker 
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+<div>
+
+  <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+
+<i class="fa fa-microchip" aria-hidden="true"></i>
+
 </div>
-<hr>
-<pre>{{model}}</pre>
- Left (pre-checked)
-Middle
-Right

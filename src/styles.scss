@@ -3,4 +3,13 @@
 //@import '~/bootstrap/dist/css/bootstrap.min.css';
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+//@import "~/font-awesome/css/font-awesome.css" // -here webpack will automatically build a link css element out of this!?
+
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+@import "~bootstrap/scss/bootstrap";
+//@import "~font-awesome/scss/font-awesome";
